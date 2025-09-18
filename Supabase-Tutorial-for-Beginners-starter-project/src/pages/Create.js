@@ -45,7 +45,7 @@ const Create = () => {
           onChange={(e) => setTitle(e.target.value)}
         />
 
-        <label htmlFor="method">Method:</label>
+        <label htmlFor="method">Methods:</label>
         <textarea 
           id="method"
           value={method}
