@@ -37,7 +37,7 @@ const Create = () => {
   return (
     <div className="page create">
       <form onSubmit={handleSubmit}>
-        <label htmlFor="title">Title:</label>
+        <label htmlFor="title">Title: </label>
         <input 
           type="text" 
           id="title"
