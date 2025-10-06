@@ -52,7 +52,7 @@ const Create = () => {
           onChange={(e) => setMethod(e.target.value)}
         />
 
-        <label htmlFor="rating">Current Rating:</label>
+        <label htmlFor="rating">Current Ratings:</label>
         <input 
           type="number"
           id="rating"
