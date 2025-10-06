@@ -60,7 +60,7 @@ const Create = () => {
           onChange={(e) => setRating(e.target.value)}
         />
 
-        <button>Create Smoothie Recipes</button>
+        <button>Create Smoothie Recipe</button>
 
         {formError && <p className="error">{formError}</p>}
       </form>
