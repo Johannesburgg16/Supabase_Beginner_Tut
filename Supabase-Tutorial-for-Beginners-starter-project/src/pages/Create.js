@@ -33,7 +33,7 @@ const Create = () => {
       navigate('/')
     }
   }
-
+// text titles
   return (
     <div className="page create">
       <form onSubmit={handleSubmit}>
