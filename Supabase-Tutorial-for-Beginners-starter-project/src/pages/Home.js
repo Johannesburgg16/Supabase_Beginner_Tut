@@ -1,7 +1,7 @@
 import supabase from "../config/supabaseClient"
 import { useEffect, useState} from 'react'
 
-//components
+//card components
 import SmoothieCard from "../components/SmoothieCard"
 
 const Home = () => {
