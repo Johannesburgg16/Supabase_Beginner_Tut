@@ -12,7 +12,7 @@ function App() {
       <nav>
         <h1>Super Hero Smoothies</h1>
         <Link to="/">Home</Link>
-        <Link to="/create">Create New Smoothies</Link>
+        <Link to="/create">Create New Drinks</Link>
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />
