@@ -101,7 +101,7 @@ form button {
   cursor: pointer;
 }
 
-/* order-by button */
+/* ordered-by button */
 .order-by button {
   margin-right: 10px;
   background: var(--primary);
