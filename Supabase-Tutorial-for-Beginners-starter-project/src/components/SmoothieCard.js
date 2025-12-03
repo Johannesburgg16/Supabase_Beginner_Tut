@@ -1,6 +1,7 @@
 import supabase from "../config/supabaseClient"
 import { Link } from 'react-router-dom'
 
+//edit smoothiecard
 const SmoothieCard = ({ smoothie, onDelete }) => {
 
   const handleDelete = async () => {
