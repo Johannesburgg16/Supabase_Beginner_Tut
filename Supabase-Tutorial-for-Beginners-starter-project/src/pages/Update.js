@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import { useParams, useNavigate } from 'react-router-dom'
 import supabase from "../config/supabaseClient"
 
-//updating component
+//updating component to show changed data
 const Update = () => {
   const { id } = useParams()
   const navigate = useNavigate()
